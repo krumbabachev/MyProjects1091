@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace IntroToCSharp
-{
+namespace Chap1_task4
+{ 
     class HelloCSharp
     {
         static void Main(string[] args)

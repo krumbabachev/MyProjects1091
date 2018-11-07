@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace Корен
+namespace Chap1_task10
+
 {
     class Program
     {

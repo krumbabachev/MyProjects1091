@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Числа
+namespace Chap1_Task7
 {
     class Program
     {

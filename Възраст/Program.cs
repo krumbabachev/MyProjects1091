@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Възраст
+namespace Chap1_task11
 {
     class Program
     {
