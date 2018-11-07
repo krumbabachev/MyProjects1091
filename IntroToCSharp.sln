@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroToCSharp", "IntroToCSharp\IntroToCSharp.csproj", "{F74C4E8C-C3BC-469C-9DF9-297BBBB5A3E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap1-task4", "IntroToCSharp\Chap1-task4.csproj", "{F74C4E8C-C3BC-469C-9DF9-297BBBB5A3E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Числа", "Числа\Числа.csproj", "{D2861EBE-D4D5-4B81-AF1D-594AAC90ABD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap1-task7", "Числа\Chap1-task7.csproj", "{D2861EBE-D4D5-4B81-AF1D-594AAC90ABD8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Дата", "Коренуване\Дата.csproj", "{42312937-9AEA-4FA9-9D7D-ED8A501A9AB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Корен", "Корен\Корен.csproj", "{CFD9B9C0-71A9-4368-A349-9D6D71056A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap1-task10", "Корен\Chap1-task10.csproj", "{CFD9B9C0-71A9-4368-A349-9D6D71056A11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Възраст", "Възраст\Възраст.csproj", "{81D8D824-6F44-48FE-BC30-3DAB13F410D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap1-task11", "Възраст\Chap1-task11.csproj", "{81D8D824-6F44-48FE-BC30-3DAB13F410D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ПримитивниТипове", "ПримитивниТипове\ПримитивниТипове.csproj", "{15128253-DA4E-454D-8F50-D6B795D69ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap2", "ПримитивниТипове\Chap2.csproj", "{15128253-DA4E-454D-8F50-D6B795D69ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Оператори", "Оператори\Оператори.csproj", "{404DF510-74DC-47AB-84FB-5DC8428E8512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap3", "Оператори\Chap3.csproj", "{404DF510-74DC-47AB-84FB-5DC8428E8512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap4", "Chap4\Chap4.csproj", "{65426259-38A4-415B-BB0D-E5E383AB93FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{404DF510-74DC-47AB-84FB-5DC8428E8512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{404DF510-74DC-47AB-84FB-5DC8428E8512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{404DF510-74DC-47AB-84FB-5DC8428E8512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65426259-38A4-415B-BB0D-E5E383AB93FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65426259-38A4-415B-BB0D-E5E383AB93FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65426259-38A4-415B-BB0D-E5E383AB93FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65426259-38A4-415B-BB0D-E5E383AB93FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

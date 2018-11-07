@@ -29,6 +29,13 @@ namespace Корен
             }
 
             Console.WriteLine();
+
+
+
+            //------------------------------------------------------
+
+            //task9
+            Console.WriteLine(Math.Sqrt(12345));
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace ПримитивниТипове
+namespace Chap2
+
 {
     class Program
     {
@@ -51,16 +52,17 @@ namespace ПримитивниТипове
 
             //6--------------------------------------------
 
-            bool IsMale = true;
-            string gend = Console.ReadLine(); 
+            Console.WriteLine("Are you a male: true/false");
+            bool IsMale = bool.Parse(Console.ReadLine());
 
-            if (IsMale)
+            if ((IsMale == true))
             {
-                Console.WriteLine("You are a {0} {1}", gend, IsMale);
+                Console.WriteLine("You are a male");
+
             }
-          else
+            else
             {
-                Console.WriteLine("You are a {0} {1}", gend, IsMale);
+                Console.WriteLine("You are not a male");
             }
 
 

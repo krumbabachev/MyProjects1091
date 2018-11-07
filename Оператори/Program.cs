@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace Оператори
+namespace Chap3
+
 {
     class Program
     {
@@ -141,7 +142,29 @@ namespace Оператори
             //15.---------------------------------
 
 
+            Console.Write("Enter number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int change = 1 << 3;
+            int bit3 = (num & change) != 0 ? 1 : 0;
+            change = 1 << 4;
+            int bit4 = (num & change) != 0 ? 1 : 0;
+            change = 1 << 5;
+            int bit5 = (num & change) != 0 ? 1 : 0;
+            change = 1 << 24;
+            int bit24 = (num & change) != 0 ? 1 : 0;
+            change = 1 << 25;
+            int bit25 = (num & change) != 0 ? 1 : 0;
+            change = 1 << 26;
+            int bit26 = (num & change) != 0 ? 1 : 0;
 
+            num = (bit3 == 0) ? num = num & (~(1 << 24)) : num = num | (1 << 24);
+            num = (bit4 == 0) ? num = num & (~(1 << 25)) : num = num | (1 << 25);
+            num = (bit5 == 0) ? num = num & (~(1 << 26)) : num = num | (1 << 26);
+            num = (bit24 == 0) ? num = num & (~(1 << 3)) : num = num | (1 << 3);
+            num = (bit25 == 0) ? num = num & (~(1 << 4)) : num = num | (1 << 4);
+            num = (bit26 == 0) ? num = num & (~(1 << 5)) : num = num | (1 << 5);
+
+            Console.WriteLine(num);
 
 
 
